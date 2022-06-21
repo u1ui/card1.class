@@ -1,15 +1,9 @@
 # .u1-card1 - class
 card-class (beta)
 
-
 card1-class
 
 We named it with the prefix 1 to prevent compatibility-issues if we like to change behavoir
-
-## Demos
-
-https://raw.githack.com/u1ui/card1.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/card1.class/main/tests/test.html
 
 ## Ussage
 
@@ -37,10 +31,10 @@ https://raw.githack.com/u1ui/card1.class/main/tests/test.html
 <link href="https://cdn.jsdelivr.net/gh/u1ui/card1.class@3.0.0/card1.min.css" rel=stylesheet>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/card1.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/card1.class/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/card1.class/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/card1.class/main/tests/test.html)  
 
 ## About
 
