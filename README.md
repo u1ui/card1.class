@@ -25,6 +25,11 @@ We named it with the prefix 1 to prevent compatibility-issues if we like to chan
 </article>
 ```
 
+```css
+.u1-card1 {
+}
+```
+
 ## Install
 
 ```html
@@ -33,8 +38,8 @@ We named it with the prefix 1 to prevent compatibility-issues if we like to chan
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/card1.class/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/card1.class/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/card1.class@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/card1.class@main/tests/test.html)  
 
 ## About
 
