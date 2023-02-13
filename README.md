@@ -33,7 +33,7 @@ We named it with the prefix 1 to prevent compatibility-issues if we like to chan
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/card1.class@3.0.0/card1.min.css" rel=stylesheet>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/card1.class@x.x.x/card1.min.css" rel=stylesheet>
 ```
 
 ## Demos
