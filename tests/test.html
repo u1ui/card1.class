@@ -13,70 +13,69 @@
         <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css">
         <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
 
-        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap.class/flex-gap.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/flex.class/flex.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/invert.class/invert.min.css">
 
         <link rel=stylesheet href="../card1.css">
 <body>
 
 
 <style>
-    /*
-section:hover .u1-card1 {
-    background:#ffe;
+.u1-flex > li {
+    list-style:none;
 }
-section:hover .u1-card1 > * {
-    background:#fef;
+:where(a.u1-card1) {
+    color:inherit;
+    text-decoration: none;
 }
-section:hover .u1-card1 > .-body {
-    background:#eff;
-}
-*/
 </style>
 
 
 <section>
-    <h2>.u1-card1</h2>
+    <h1>.u1-card1</h1>
 
-
-
-    <ul class=u1-flex-gap style="padding:0;">
+    <ul class=u1-flex style="padding:0; --u1-Gap:2rem">
         <li class=u1-card1 style="flex: 1 0 14rem;">
-            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600 style="padding:0; margin-left:0; margin-right:0; margin-top:0">
-            <h1>Card 1</h1>
+            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600>
+            <h2>Card 1</h2>
             <div class=-body>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro pariatur ducimus aut? Saepe vitae sequi doloribus perspiciatis quae? Fuga, exercitationem voluptatum facilis necessitatibus qui incidunt? Magnam non perferendis iure.
             </div>
             <div style="background:#eee">
-                <div class=u1-flex-gap style="--u1-Gap:.5rem">
+                <div class=u1-flex style="--u1-Gap:.5rem">
                     <button style="flex-grow:1">button 1</button>
                     <button style="flex-grow:1">button 2</button>
                 </div>
             </div>
         </li>
         <li class=u1-card1 style="flex: 1 0 14rem;">
-            <h1>Card 2</h1>
-            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600 style="padding:0; margin-left:0; margin-right:0">
+            <h2>Card 2</h2>
+            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600>
             <div class=-body>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores suscipit magni ullam similique nam optio tenetur iure culpa illo aliquid natus animi, facilis assumenda odit eum rem cum eveniet aspernatur.
+                Despite less content, the footer is still at the bottom.
             </div>
-            <div>Footer</div>
+            <div style="background:#eee">
+                <button>button 1</button>
+            </div>
         </li>
         <li class=u1-card1 style="flex: 1 0 14rem;">
-            <h1>Card 3</h1>
+            <h2>Card 3</h2>
             <div class=-body>
                 Ipsum dolor sit amet consectetur adipisicing elit. Magnam non perferendis iure. Aliquam consequ des consequ des consequ des consequ.
             </div>
             <div>Footer</div>
-            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600 style="padding:0; margin-left:0; margin-right:0; margin-bottom:0">
+            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600>
         </li>
-        <a class=u1-card1 style="flex: 1 0 14rem;" href="#">
-            <h1>Card as Link</h1>
-            <div class=-body>
-                Ipsum dolor sit amet consectetur adipisicing elit. Magnam non perferendis iure. Aliquam consequ des consequ des consequ des consequ.
-            </div>
-            <div>Footer</div>
-            <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600 style="padding:0; margin-left:0; margin-right:0; margin-bottom:0">
-        </a>
+        <li style="flex: 1 0 14rem;">
+            <a class="u1-card1 u1-invert" href="#">
+                <h2>Card as Link and inverted</h2>
+                <div class=-body>
+                    Ipsum dolor sit amet consectetur adipisicing elit. Magnam non perferendis iure. Aliquam consequ des consequ des consequ des consequ.
+                </div>
+                <div>Footer</div>
+                <img src="https://picsum.photos/800/600?random=1" alt="x" loading=lazy width=800 height=600>
+            </a>
+        </li>
     </ul>
 
 </section>

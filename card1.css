@@ -4,7 +4,7 @@
     box-shadow: var(--shadow);
     border-radius: var(--radius);
 }
-.u1-card1.u1-card1 > * {
+.u1-card1.u1-card1 > :not(img) {
     margin: 0;
     padding: 1rem;
 }
