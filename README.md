@@ -15,7 +15,7 @@ We named it with the prefix "1" to prevent compatibility-issues if we like to ch
         necessitatibus qui incidunt? Magnam non perferendis iure.
     </div>
     <div style="background:#eee">
-        <div class=u1-flex-gap style="justify-content:flex-end">
+        <div class=u1-flex style="justify-content:flex-end">
             <button>button 1</button>
             <button>button 2</button>
         </div>
