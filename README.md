@@ -3,7 +3,7 @@ card-class (beta)
 
 We named it with the prefix "1" to prevent compatibility-issues if we like to change behavoir
 
-## Ussage
+## Usage
 
 ```html
 <article class=u1-card1>
